@@ -14,3 +14,22 @@
  *= require_self
  */
  @import "bootstrap";
+
+ .main_img{
+  height: 500px;
+  width: 100%;
+  background-image:url(assets/cub);
+  background-size: cover; 
+  padding: 0;
+}
+
+.main_img_back{
+  background-color: rgba(0,0,0,0.3);
+  height:500px;
+  width: 100%;
+  padding: 0;
+}
+
+.container{
+  margin-top: 80px;
+}

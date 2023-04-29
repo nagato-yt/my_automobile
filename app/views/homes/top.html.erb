@@ -1,2 +1,20 @@
-<h1>Homes#top</h1>
-<p>Find me in app/views/homes/top.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="main_img">
+        <div class="main_img_back d-flex align-items-center justify-content-center">
+          <h2 class="text-center text-white">〜愛車に長く乗るために、今できること〜</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <%= link_to '新規作成',new_user_session_path,class:"btn btn-sucsses control-form" %>
+          <%= link_to 'ログイン',user_session_path, class:"btn btn-info control-form" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'posts/new'
   get 'posts/index'
   get 'posts/edit'
   root  'homes#top'
   get 'homes/about'
-  devise_for :users
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

@@ -2,8 +2,13 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+/* 
+import jquery from "jquery"
+window.$ = jquery
+*/
 
 import "@hotwired/turbo-rails"
 import "controllers"
 import "@fortawesome/fontawesome-free"
-import './custom/menu.js'
+
+

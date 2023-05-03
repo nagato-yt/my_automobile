@@ -7,14 +7,14 @@
         <span></span>
       </label>
       <ul class="menu__box">
-        <li><a class="menu__item" href="/"><i class="fa-solid fa-house"></i> ホーム</a></li>
+        <li><a class="menu__item" href="#">
+          <%= link_to root_path, class:"nav-link text-dark" do %> <i class="fa-solid fa-house"></i> ホーム<%end%></a>
+        </li>
         <li><a class="menu__item" href="#"><i class="fa-solid fa-car"></i> 愛車情報</a></li>
         <li><a class="menu__item" href="#"><i class="fa-solid fa-screwdriver-wrench"></i> メンテナンス</a></li>
         <li><a class="menu__item" href="#">
-           <%= link_to posts_path, class:"nav-link text-dark" do %>
-            <i class="fa-solid fa-book-journal-whills"></i> 日記
-           <%end%>
-        </a></li>
+           <%= link_to posts_path, class:"nav-link text-dark" do %><i class="fa-solid fa-book-journal-whills"></i> 日記<%end%></a>
+        </li>
       </ul>
     </nav>
 </header>
